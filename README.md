@@ -3,7 +3,7 @@
 # CHILI PIPER DEMO
 ### By Kangze Huang
 
-View Demo: https://Chili Piper.kangzehuang.com
+View Demo: https://chili.kangzehuang.com
 
 Hello Chili Piper! In this demo project, my goal is to compile a library of Chili Piper tutorials that can get a user up and running in the fastest time possible. This library of video tutorials exists on its own website without the distraction of unrelated YouTube videos - productivity!
 
