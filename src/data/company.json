@@ -1,0 +1,13 @@
+{
+  "company_name": "Chili Piper",
+  "company_website": "https://www.chilipiper.com/",
+  "company_shortname": "Chili Piper",
+  "company_favicon": "https://www.chilipiper.com/wp-content/themes/chilipiper/public/images/favicons/favicon-32x32.png",
+  "company_logo_url": "https://s3.amazonaws.com/kangzes-s3/website-resume/chili.png",
+  "banner_gif": "https://media.giphy.com/media/dCACGj4PMfNM6Tea9x/giphy.gif",
+  "preview_image": "https://s3.amazonaws.com/kangzes-s3/website-resume/hotleads.png",
+  "banner_title": "Capture 🔥 Leads",
+  "banner_subtitle": "Engage New Customers Instantly with Chili Basket",
+  "disclaimer": "(Demo by Kangze Huang)",
+  "footer_desc": "This website is NOT affiliated with Chili Piper. It is a concept piece for demo purposes, created by Kangze Huang applying for a Frontend Web Developer Position."
+}

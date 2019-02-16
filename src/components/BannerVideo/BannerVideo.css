@@ -1,0 +1,113 @@
+
+#BannerVideo {
+  height: 430px;
+  width: 100%;
+}
+
+@-webkit-keyframes SexyGrad {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes SexyGrad {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes SexyGrad {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+#main_video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 480px;
+  z-index: 1;
+
+  background: linear-gradient(180deg, #f24b30, #141414);
+  background-size: 100% 100%;
+  /* -webkit-animation: SexyGrad 15s ease infinite;
+  -moz-animation: SexyGrad 15s ease infinite;
+  -ms-animation:SexyGrad 15s ease infinite;
+  -o-animation: SexyGrad 15s ease infinite;
+  animation-name: SexyGrad 15s ease infinite;
+  animation: SexyGrad 15s ease infinite; */
+}
+
+#main_video_overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 600px;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.75);
+}
+
+#main_video_gradient {
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 50%);
+}
+
+#landing_gif {
+  width: 100%;
+  height: auto;
+  transform: scale(1.2);
+}
+
+#landing_slogan {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing_slogan_title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 40px #000000;
+  margin: 50px 0px 0px 0px;
+}
+
+#landing_slogan_subtitle {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  max-width: 300px;
+  color: rgba(256,256,256,0.7);
+  text-shadow: 3px 3px 40px #000000;
+  margin: 20px 0px 30px 0px;
+}
+
+#landing_slogan_by {
+  font-size: 1rem;
+  font-weight: lighter;
+  max-width: 300px;
+  color: rgba(256,256,256,0.7);
+  text-shadow: 3px 3px 40px #000000;
+  margin: 0px 0px;
+}
+
+#get_started {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  border: 1px solid rgba(256,256,256,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+#get_started:hover {
+  background-color: rgba(256,256,256,0.5);
+  color: #f24b30;
+}
